@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+char *gets(char *s);
+
 void    run()
 {
     printf("Good... Wait what");
