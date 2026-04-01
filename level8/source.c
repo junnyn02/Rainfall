@@ -1,3 +1,19 @@
+/*
+pseudo code :
+printf("%p, %p \n",auth,service);
+input = fgets(buffer,128,stdin);
+if strncmp(buffer, "auth ", 5) == 0
+{
+auth = calloc(sizeof char, 4)
+str = buffer + 5;
+strlen(str);
+if len < 31 : strcpy(auth, str);
+}
+if strncmp(buffer, "reset", 5) == 0 : free(str)
+if strncmp(buffer, "service", 7) == 0 : service = strdup
+if strncp(login) : if auth + 32 == NULL : fwrite password; else /bin/sh
+*/
+
 int main(void)
 {
   char cVar1;
